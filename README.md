@@ -1,4 +1,5 @@
 # Simple custom NFT contract(solidity)
+Implement a super simple NFT contract & REST API, using Hardhat, Ethersjs, Node, and Expressjs
 
 NOTE: You should install "npm" or "yarn",
       install the dependencies by running
