@@ -47,6 +47,8 @@ app.post("/mint", async (req, res) => {
     ) {
         res.status(401).json({error: "Invalid address"});
     }
+
+    // Main body.
     try {
         await mintNFT(req.body.to);
         res.status(200).send("Mint success");
